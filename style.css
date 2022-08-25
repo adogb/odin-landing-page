@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-nav, nav ul, #intro, #info>div{
+nav, nav ul, #intro, #info>div, #quote{
   display: flex;
 }
 
@@ -15,7 +15,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-header, main, footer {
+header, footer {
   padding: 0 100px;
 }
 
@@ -90,7 +90,7 @@ nav a {
 }
 
 #info>div {
-  padding: 0 200px;
+  padding: 0 250px;
   margin-top: 30px;
   gap: 30px;
 }
@@ -110,4 +110,24 @@ nav a {
 .subtext {
   font-size: 12px;
   margin-top: 5px;
+}
+
+#quote {
+  background-color: #E5E7EB;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 250px;
+}
+
+#quote blockquote {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1F2937;
+}
+
+#quote p {
+  align-self: flex-end;
+  font-weight: 700;
+  margin-top: 20px;
 }
